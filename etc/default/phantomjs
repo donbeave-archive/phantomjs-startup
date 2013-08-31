@@ -1,0 +1,19 @@
+# defauls for ghostdriver
+
+# pulled in from the init script; makes things easier.
+NAME=phantomjs
+
+# location of phantomjs
+PHANTOMJS=/usr/bin/phantomjs
+
+PIDFILE=/var/run/phantomjs/phantomjs.pid
+
+PHANTOMJS_USER=phantomjs
+
+PHANTOMJS_LOG=/var/log/phantomjs/$NAME.log
+
+WEBDRIVER_PORT=5555
+
+SELENIUM_HUB="http://127.0.0.1:4444"
+
+PHANTOMJS_ARGS="--webdriver=${WEBDRIVER_PORT} --webdriver-selenium-grid-hub=${SELENIUM_HUB}"
