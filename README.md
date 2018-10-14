@@ -49,7 +49,7 @@ Change the Selenium Grid port to 5555.
 
 	nano -w /etc/default/selenium
 
-Find and change the the line to:
+Find and change the line to:
 
 	# SELENIUM_PORT=5555
 	SELENIUM_PORT=4444
